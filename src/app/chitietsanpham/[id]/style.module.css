@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.left {
+  flex: 1;
+}
+
+.mainImage {
+  border: 2px solid gold;
+  padding: 10px;
+}
+
+.subImages {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.activeImg {
+  border: 2px solid red;
+}
+
+.right {
+  flex: 1;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price {
+  color: red;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.code, .type {
+  margin: 5px 0;
+}
+
+.quantity {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.quantity button {
+  padding: 5px 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.add {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.buy {
+  background: red;
+  color: white;
+  padding: 10px 20px;
+}
+
+.desc {
+  margin-top: 20px;
+}
